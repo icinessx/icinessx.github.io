@@ -1,22 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://icinessx.github.io</id>
-    <title>函舍</title>
-    <updated>2020-04-14T05:15:06.451Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://icinessx.github.io"/>
-    <link rel="self" href="https://icinessx.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://icinessx.github.io/images/avatar.png</logo>
-    <icon>https://icinessx.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 函舍</rights>
-    <entry>
-        <title type="html"><![CDATA[Linux 服务器 docker 部署 AWTRIX 2.0 Server]]></title>
-        <id>https://icinessx.github.io/post/linux-fu-wu-qi-docker-bu-shu-awtrix-20-server/</id>
-        <link href="https://icinessx.github.io/post/linux-fu-wu-qi-docker-bu-shu-awtrix-20-server/">
-        </link>
-        <updated>2020-04-14T05:13:09.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="docker部署">docker部署</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Linux 服务器 docker 部署 AWTRIX 2.0 Server | 函舍</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://icinessx.github.io/favicon.ico?v=1586841253277">
+<link rel="stylesheet" href="https://icinessx.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="docker部署
+下载配置文件
+进入项目仓库 stilleshan/awtrix-server 下载或者clone本仓库,复制awtrix文件夹到你指定的目录,建议存放至/root下.
+启动容器
+docker run -d --name=a..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://icinessx.github.io">
+        <img src="https://icinessx.github.io/images/avatar.png?v=1586841253277" class="site-logo">
+        <h1 class="site-title">函舍</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://icinessx.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Linux 服务器 docker 部署 AWTRIX 2.0 Server</h2>
+            <div class="post-date">2020-04-14</div>
+            
+            <div class="post-content" v-pre>
+              <h2 id="docker部署">docker部署</h2>
 <h3 id="下载配置文件">下载配置文件</h3>
 <p>进入项目仓库 <a href="https://github.com/stilleshan/awtrix-server"><strong>stilleshan/awtrix-server</strong></a> 下载或者clone本仓库,复制<code>awtrix</code>文件夹到你指定的目录,建议存放至<code>/root</code>下.</p>
 <h3 id="启动容器">启动容器</h3>
@@ -111,29 +193,51 @@ server {
 <hr>
 <h2 id="配置完成">配置完成</h2>
 <p><strong>访问你的域名输入账号密码即可</strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux安装程序AWTRIX服务器]]></title>
-        <id>https://icinessx.github.io/post/linux-an-zhuang-cheng-xu-awtrix-fu-wu-qi/</id>
-        <link href="https://icinessx.github.io/post/linux-an-zhuang-cheng-xu-awtrix-fu-wu-qi/">
-        </link>
-        <updated>2020-04-14T04:17:53.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="linux安装程序awtrix服务器">Linux安装程序AWTRIX服务器</h3>
-<figure data-type="image" tabindex="1"><img src="https://www.nasyun.top/usr/uploads/2020/03/18424768.png" alt="06156-ze4arm0941.png" loading="lazy"></figure>
-<p><strong>在SSH终端中输入以下命令以自动安装</strong></p>
-<pre><code>wget -N https://blueforcer.de/awtrix/awtrix.sh ; sudo sh awtrix.sh
-</code></pre>
-<p>[^启动后不久，即可通过http：// awtrix_ip：7000访问Web界面。]:</p>
-<p><strong>启动AWTRIX</strong></p>
-<pre><code>sudo service awtrix start
-</code></pre>
-<p><strong>停止AWTRIX</strong></p>
-<pre><code>sudo service awtrix stop
-</code></pre>
-<p><strong>AWTRIX重新启动</strong></p>
-<pre><code>sudo service awtrix restart
-</code></pre>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://icinessx.github.io/post/linux-an-zhuang-cheng-xu-awtrix-fu-wu-qi/">
+                  <h3 class="post-title">
+                    Linux安装程序AWTRIX服务器
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
